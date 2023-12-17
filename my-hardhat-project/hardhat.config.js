@@ -5,8 +5,10 @@ module.exports = {
   solidity: "0.8.18",
   networks: {
     hardhat: {
+      chainId: 31337,
+
       forking: {
-        url: "https://optimism-mainnet.infura.io/v3/dc49adfb8c0841cd88e1d2db0083e35b",
+        url: "https://eth-mainnet.g.alchemy.com/v2/yD4VXYMOtG8_WYYKPyCGbCHpRVJmLf0G",
       }
     }
   }
